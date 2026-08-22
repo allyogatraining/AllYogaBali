@@ -1,22 +1,48 @@
 User-agent: *
 Allow: /
 
+# Google Search
 User-agent: Googlebot
 Allow: /
 
+# Microsoft/Bing
 User-agent: Bingbot
 Allow: /
 
+# OpenAI / ChatGPT Search
 User-agent: OAI-SearchBot
 Allow: /
 
 User-agent: ChatGPT-User
 Allow: /
 
+# OpenAI model crawler
+User-agent: GPTBot
+Allow: /
+
+# Anthropic / Claude
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+# Perplexity
 User-agent: PerplexityBot
 Allow: /
 
+# Google Gemini
 User-agent: Google-Extended
+Allow: /
+
+# Apple / Apple Intelligence / Siri
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
 Allow: /
 
 Sitemap: https://www.allyogabali.com/sitemap.xml
